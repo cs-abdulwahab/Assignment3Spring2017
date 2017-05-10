@@ -1,0 +1,56 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#00FF00"
+	tools:context="com.example.abdul_wahab.assignment3spring2017.ContactFragment"
+	>
+
+
+	<ImageView
+		android:id="@+id/imgDisplay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginStart="28dp"
+		android:layout_marginTop="21dp"
+		app:srcCompat="@mipmap/ic_launcher"
+		/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="3"
+		android:background="#FF0000"
+		android:orientation="vertical"
+		>
+
+
+		<TextView
+			android:id="@+id/txtContactID"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="ContactID"
+			/>
+
+		<TextView
+			android:id="@+id/txtContactName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Contact Name"
+			/>
+
+		<TextView
+			android:id="@+id/txtPhoneName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="Phone Name"
+			/>
+	</LinearLayout>
+</LinearLayout>
